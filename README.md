@@ -1,4 +1,4 @@
-# vue-over-body
+# vue3-over-body
 Create modals, sidebars, notifications, pop ups with css transitions! 
 
 ## Demo
@@ -7,24 +7,23 @@ with bulma css framework, but we do not impose any css framework
 
 ## Install
 ```
-npm install --save vue-over-body
+npm install --save vue3-over-body
 ```
 
 ## Usage
 ```javascript
-  import Vue from 'vue'
-  import overBody from 'vue-over-body'
+import overBody from 'vue3-over-body';
 
-  new Vue({
+export default {
     components: {
-      'vue-over-body': overBody
+        "vue-over-body": overBody
     },
     data: function () {
-      return {
-        open: 1
-      }
+        return {
+            open: 1
+        };
     }
-  }).$mount('#app')
+};
 ```
 
 ```html

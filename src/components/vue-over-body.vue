@@ -71,13 +71,11 @@
         if (obj == null) {
           obj = {}
         }
-
         obj['z-index'] = this.open
         obj['-webkit-transition'] = 'all ' + this.transition + 's'
         obj['-moz-transition'] = 'all ' + this.transition + 's'
         obj['-o-transition'] = 'all ' + this.transition + 's'
         obj['transition'] = 'all ' + this.transition + 's'
-
         return obj
       }
     }
@@ -105,7 +103,6 @@
   .over_body_open {
     overflow: hidden;
   }
-
   .over_body_mask {
     top: 0;
     right: 0;
@@ -115,11 +112,9 @@
     overflow-x: hidden;
     overflow-y: auto;
   }
-
   .over_body_mask_after {
     background-color:rgba(0, 0, 0, 0.5); 
   }
-
   .over_body_dialog {
     position:relative; 
   }
